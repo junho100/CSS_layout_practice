@@ -110,3 +110,39 @@ header h1{
 #G, #J{
     grid-column: 1 / 3;
 }
+footer{
+    height : 100vh;
+    width: 100%;
+    background-color: #535851;
+}
+#navs{
+    display: flex;
+    padding-left: 215px;
+    padding-top: 165px;
+}
+#navs > ul{
+    margin-right: 190px;
+}
+.footer_nav li:first-child{
+    color : #a0a39f;
+}
+.footer_nav li:not(:first-child){
+    color : white;
+}
+.footer_nav > li{
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+#rights{
+    padding-left: 215px;
+    margin-top: 230px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#rights > span{
+    margin-right: 325px;
+    font-size: 15px;
+    color : white;
+}
