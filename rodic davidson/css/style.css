@@ -93,6 +93,8 @@ main > div:nth-child(14){
     justify-content: space-between;
     align-items: center;
     padding : 12px 15px;
+}
+.content{
     cursor: pointer;
 }
 .content_header, .content_footer{
@@ -157,4 +159,25 @@ form button{
     background-color: transparent;
     text-decoration: underline;
     font-size: 15px;
+    cursor: pointer;
+}
+footer{
+    height: 230px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 180px 50px;
+}
+footer div:first-child{
+    grid-column-start: span 3;
+}
+footer ul{
+    display: flex;   
+}
+footer ul:nth-child(2){
+    justify-content: center;
+    align-items: center;
+}
+footer ul:nth-child(3){
+    justify-content: flex-end;
+    align-items: center;
 }
